@@ -69,7 +69,7 @@ button {
     padding: 8px;
     font-size: 16px;
     font-weight: bold;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 a,
@@ -145,4 +145,34 @@ span {
     font-size: 20px;
     text-align: right;
     width: 600px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    padding: 40px 100px;
+    border-radius: 8px;
+    margin: 100px 0;
+}
+
+.sign-up-text .strong {
+    font-weight: bold;
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+.sign-up-message {
+    color: #E5E7EB;
+}
+
+.sign-up-container button {
+    border: 2px solid #F9FAF8;
 }
