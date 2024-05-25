@@ -45,6 +45,10 @@ a {
     height: 250px;
     width: 500px;
     background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
 
 .main-text {
@@ -175,4 +179,12 @@ span {
 
 .sign-up-container button {
     border: 2px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    height: 100px;
 }
